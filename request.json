@@ -1,0 +1,1347 @@
+{
+	"products": [
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$12/month",
+				"category": "Business Checking",
+				"subCategory": "Checking",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+				"priority": 0,
+				"icon": "assets/img/icons/checkbook.icon.svg",
+				"benefits": [
+					"Up to 150 transactions a month",
+					"Monthly cash deposits of up to $5,000",
+					"Access to PNC's extensive ATM Network"
+				],
+				"summaryData": {
+					"tagline": "Designed for smaller businesses with modest monthly check writing and deposit activity",
+					"balance": "Maintain a monthly balance of less than <strong>$5,000</strong>",
+					"transactions": "Get up to <strong>150</strong> transactions a month",
+					"deposits": "Make monthly cash deposits of up to <strong>$5,000</strong>",
+					"balanceCheck": "Your average monthly balance is",
+					"transactionsCheck": "You currently do about <strong>[[value]]</strong> transactions per month",
+					"depositsCheck": "Your cash deposits total about <strong>$[[value]]</strong> per month",
+					"transactionsHelp": "How do we calculate transactions?",
+					"depositsMethod": "You prefer to make deposits <strong>at the [[value]]</strong>"
+				}
+			},
+			"ProductFeatures": [
+				{
+					"ExternalId": "BC_S_CARD_DEBIT",
+					"FeatureId": 4,
+					"ProductFeatureId": 1,
+					"ProductFeatureUId": "1a666b1d-55d8-4e8f-bdd6-55262c92cc46",
+					"FeatureUId": "c411d23e-f512-470f-a75d-a9527643bd13",
+					"Friendly": "debit_card",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "PNC Bank Visa Business Debit Card",
+					"Priority": 0,
+					"IsAddOn": false,
+					"FeatureName": "Debit Card",
+					"Data": {
+						"disclaimerGroup": "D2",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Gain flexibility, save time, and reduce the number of checks you have to write",
+							"With Zero Liability, if your card or card number is ever lost or stolen, your money will be replaced if you notify us promptly of unauthorized use",
+							"Earn cash back when you use your card with PNC Purchase Payback®; get discounts when you enroll in Visa® SavingsEdge"
+						],
+						"summaryData": {
+							"tagline":
+								"Provides a secure alternative to cash and checks while providing business owners and trusted employees with the ability to better track and control spending and earn cash back"
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_S_CARD_DEPOSIT",
+					"FeatureId": 3,
+					"ProductFeatureId": 2,
+					"ProductFeatureUId": "bbe3d723-7c6b-40e8-b595-15e4abad173d",
+					"FeatureUId": "78885c29-9018-4ed7-8946-b82e726feb99",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "PNC Bank Business Deposit Card",
+					"Priority": 1,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Card",
+					"Data": {
+						"disclaimerGroup": "D1",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Only allows ATM deposits.  All other transactions and balances are blocked",
+							"Allows employees to make deposits 24/7, so they can get back to work quickly",
+							"See images of the deposited checks right on the ATM receipt or have the receipts emailed to you"
+						],
+						"summaryData": {
+							"tagline":
+								"Save time, improve efficiency, and keep your business information confidential by giving this card to employees who make deposits for your business",
+							"statements": [
+								{
+									"text": "Others make deposits for you",
+									"facts": ["proxyDeposits"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_S_DEPOSIT_TOOLS_M_APP",
+					"FeatureId": 1,
+					"ProductFeatureId": 3,
+					"ProductFeatureUId": "69a6f12e-df05-4a8d-99a0-b509d80b25fc",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "PNC Mobile App",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D3",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Access and control your account information when and where you want",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_S_DEPOSIT_TOOLS_M_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 4,
+					"ProductFeatureUId": "da1eaeec-cb29-47c9-af70-f1d8916600a3",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "Business Mobile Deposit",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D4",
+						"fee": "$1 Per Item, No Monthly Fee",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Making a deposit is as easy as snapping a picture on your mobile device",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_S_DEPOSIT_TOOLS_D_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 5,
+					"ProductFeatureUId": "5c2a7fe0-06c1-4d5a-a716-660dc1a8f0ba",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "Remote Deposit Capture",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D5",
+						"fee": "Starts at $50",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Process a large volume of checks quickly, easily, and securely",
+							"Keep accurate records by matching check payments to customer’s names",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Skip the trip to the bank and make deposits from the comfort of your office",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_S_ONLINE_BANKING",
+					"FeatureId": 2,
+					"ProductFeatureId": 6,
+					"ProductFeatureUId": "da5f4229-d481-41ef-9f7b-4d5131900b27",
+					"FeatureUId": "8d29c948-32b2-47c7-b67d-429ae7e58849",
+					"ProductId": 1,
+					"ProductName": "Business Checking",
+					"ProductUId": "67c0bc0f-6379-43fd-aae9-448af50ef552",
+					"ValueDisplay": "Online Banking",
+					"IsAddOn": false,
+					"FeatureName": "Online Banking",
+					"Data": {
+						"disclaimerGroup": "D6",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-payment.icon.svg",
+						"benefits": [
+							"View pending and posted transactions",
+							"Access up to 7 years of statements online, when you have an active checking account",
+							"Transfer funds at your convenience"
+						],
+						"summaryData": {}
+					}
+				}
+			],
+			"BackgroundImages": [],
+			"Name": "Business Checking",
+			"Deleted": false,
+			"ProductId": 1,
+			"ExternalId": "BC_S"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$20/month",
+				"category": "Business Checking",
+				"subCategory": "Checking",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+				"priority": 0,
+				"icon": "assets/img/icons/checkbook.icon.svg",
+				"benefits": [
+					"Up to 500 transactions a month",
+					"Free monthly cash deposits of up to $10,000",
+					"Offers a Personal Checking Account for business owners"
+				],
+				"summaryData": {
+					"tagline":
+						"Designed for growing businesses looking for more options and flexibility in managing their banking transactions",
+					"balance": "Maintain a monthly balance of <strong>$5,000 - $25,000</strong>",
+					"transactions": "Get up to <strong>500</strong> transactions a month",
+					"deposits": "Make monthly cash deposits of up to <strong>$10,000</strong>",
+					"balanceCheck": "Your average monthly balance is",
+					"transactionsCheck": "You currently do about <strong>[[value]]</strong> transactions per month",
+					"depositsCheck": "Your cash deposits total about <strong>$[[value]]</strong> per month",
+					"transactionsHelp": "How do we calculate transactions?",
+					"depositsMethod": "You prefer to make deposits <strong>at the [[value]]</strong>"
+				}
+			},
+			"ProductFeatures": [
+				{
+					"ExternalId": "BC_P_CARD_DEBIT",
+					"FeatureId": 4,
+					"ProductFeatureId": 7,
+					"ProductFeatureUId": "55fc537b-a1fd-4423-81a0-908d3eaa8e89",
+					"FeatureUId": "c411d23e-f512-470f-a75d-a9527643bd13",
+					"Friendly": "debit_card",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "PNC Bank Visa Business Debit Card",
+					"Priority": 0,
+					"IsAddOn": false,
+					"FeatureName": "Debit Card",
+					"Data": {
+						"disclaimerGroup": "D2",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Gain flexibility, save time, and reduce the number of checks you have to write",
+							"With Zero Liability, if your card or card number is ever lost or stolen, your money will be replaced if you notify us promptly of unauthorized use",
+							"Earn cash back when you use your card with PNC Purchase Payback®; get discounts when you enroll in Visa® SavingsEdge"
+						],
+						"summaryData": {
+							"tagline":
+								"Provides a secure alternative to cash and checks while providing business owners and trusted employees with the ability to better track and control spending and earn cash back"
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_P_CARD_DEPOSIT",
+					"FeatureId": 3,
+					"ProductFeatureId": 8,
+					"ProductFeatureUId": "ba188df0-b028-406c-8a09-c713dd1cd28b",
+					"FeatureUId": "78885c29-9018-4ed7-8946-b82e726feb99",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "PNC Bank Business Deposit Card",
+					"Priority": 1,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Card",
+					"Data": {
+						"disclaimerGroup": "D1",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Only allows ATM deposits.  All other transactions and balances are blocked",
+							"Allows employees to make deposits 24/7, so they can get back to work quickly",
+							"See images of the deposited checks right on the ATM receipt or have the receipts emailed to you"
+						],
+						"summaryData": {
+							"tagline":
+								"Save time, improve efficiency, and keep your business information confidential by giving this card to employees who make deposits for your business",
+							"statements": [
+								{
+									"text": "Others make deposits for you",
+									"facts": ["proxyDeposits"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_P_DEPOSIT_TOOLS_M_APP",
+					"FeatureId": 1,
+					"ProductFeatureId": 9,
+					"ProductFeatureUId": "584f91f3-18fc-4f0e-91b6-ba4bb621dea0",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "PNC Mobile App",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D3",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Access and control your account information when and where you want",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_P_DEPOSIT_TOOLS_M_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 10,
+					"ProductFeatureUId": "2ddbad28-5760-43de-b239-a5102ca36111",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "Business Mobile Deposit",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D4",
+						"fee": "$1 Per Item, No Monthly Fee",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Making a deposit is as easy as snapping a picture on your mobile device",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_P_DEPOSIT_TOOLS_D_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 11,
+					"ProductFeatureUId": "3747b319-83f2-41a7-a70f-a4e614f3eff3",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "Remote Deposit Capture",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D5",
+						"fee": "Starts at $50",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Process a large volume of checks quickly, easily, and securely",
+							"Keep accurate records by matching check payments to customer’s names",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Skip the trip to the bank and make deposits from the comfort of your office",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_P_ONLINE_BANKING",
+					"FeatureId": 2,
+					"ProductFeatureId": 12,
+					"ProductFeatureUId": "65f15da4-6bcd-4954-886d-7d9fe353cb22",
+					"FeatureUId": "8d29c948-32b2-47c7-b67d-429ae7e58849",
+					"ProductId": 2,
+					"ProductName": "Business Checking Plus",
+					"ProductUId": "7e856ecb-0ad9-47e7-859b-637c0413e760",
+					"ValueDisplay": "Online Banking",
+					"IsAddOn": false,
+					"FeatureName": "Online Banking",
+					"Data": {
+						"disclaimerGroup": "D6",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-payment.icon.svg",
+						"benefits": [
+							"View pending and posted transactions",
+							"Access up to 7 years of statements online, when you have an active checking account",
+							"Transfer funds at your convenience"
+						],
+						"summaryData": {}
+					}
+				}
+			],
+			"BackgroundImages": [],
+			"Name": "Business Checking Plus",
+			"Deleted": false,
+			"ProductId": 2,
+			"ExternalId": "BC_P"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$50/month",
+				"category": "Business Checking",
+				"subCategory": "Checking",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+				"priority": 0,
+				"icon": "assets/img/icons/checkbook.icon.svg",
+				"benefits": [
+					"Up to 1,500 transactions a month",
+					"Free monthly cash deposits of up to $30,000",
+					"Up to 9 additional accounts with no monthly maintenance fee"
+				],
+				"summaryData": {
+					"tagline":
+						"Designed for larger businesses, especially those in select industries, to provide the greatest flexibility for managing your large transaction volumes and significant deposit activity each month",
+					"balance": "Maintain a monthly balance of over <strong>$25,000</strong>",
+					"transactions": "Get up to <strong>1,500</strong> transactions a month",
+					"deposits": "Make monthly cash deposits of up to <strong>$30,000</strong>",
+					"balanceCheck": "Your average monthly balance is",
+					"transactionsCheck": "You currently do about <strong>[[value]]</strong> transactions per month",
+					"depositsCheck": "Your cash deposits total about <strong>$[[value]]</strong> per month",
+					"transactionsHelp": "How do we calculate transactions?",
+					"depositsMethod": "You prefer to make deposits <strong>at the [[value]]</strong>"
+				}
+			},
+			"ProductFeatures": [
+				{
+					"ExternalId": "BC_PP_CARD_DEBIT",
+					"FeatureId": 4,
+					"ProductFeatureId": 13,
+					"ProductFeatureUId": "b506f603-1af9-427a-bf22-4952dce80957",
+					"FeatureUId": "c411d23e-f512-470f-a75d-a9527643bd13",
+					"Friendly": "debit_card",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "PNC Bank Visa Business Debit Card",
+					"Priority": 0,
+					"IsAddOn": false,
+					"FeatureName": "Debit Card",
+					"Data": {
+						"disclaimerGroup": "D2",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Gain flexibility, save time, and reduce the number of checks you have to write",
+							"With Zero Liability, if your card or card number is ever lost or stolen, your money will be replaced if you notify us promptly of unauthorized use",
+							"Earn cash back when you use your card with PNC Purchase Payback®; get discounts when you enroll in Visa® SavingsEdge"
+						],
+						"summaryData": {
+							"tagline":
+								"Provides a secure alternative to cash and checks while providing business owners and trusted employees with the ability to better track and control spending and earn cash back"
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_PP_CARD_DEPOSIT",
+					"FeatureId": 3,
+					"ProductFeatureId": 14,
+					"ProductFeatureUId": "190cc9b6-becf-4618-9391-f997cebbb6db",
+					"FeatureUId": "78885c29-9018-4ed7-8946-b82e726feb99",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "PNC Bank Business Deposit Card",
+					"Priority": 1,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Card",
+					"Data": {
+						"disclaimerGroup": "D1",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/business-banking-checking/",
+						"icon": "assets/img/icons/bank-card.icon.svg",
+						"benefits": [
+							"Only allows ATM deposits.  All other transactions and balances are blocked",
+							"Allows employees to make deposits 24/7, so they can get back to work quickly",
+							"See images of the deposited checks right on the ATM receipt or have the receipts emailed to you"
+						],
+						"summaryData": {
+							"tagline":
+								"Save time, improve efficiency, and keep your business information confidential by giving this card to employees who make deposits for your business",
+							"statements": [
+								{
+									"text": "Others make deposits for you",
+									"facts": ["proxyDeposits"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_PP_DEPOSIT_TOOLS_M_APP",
+					"FeatureId": 1,
+					"ProductFeatureId": 15,
+					"ProductFeatureUId": "5e487dfe-ad71-4c53-9508-9ec7f6f1aa88",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "PNC Mobile App",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D3",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Access and control your account information when and where you want",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_PP_DEPOSIT_TOOLS_M_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 16,
+					"ProductFeatureUId": "23d4a3b5-2fa0-47b2-8e46-2482da0741fb",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "Business Mobile Deposit",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D4",
+						"fee": "$1 Per Item, No Monthly Fee",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Deposit checks from a mobile phone or tablet",
+							"Don't wait to go to an ATM or branch",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Making a deposit is as easy as snapping a picture on your mobile device",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_PP_DEPOSIT_TOOLS_D_DEPOSIT",
+					"FeatureId": 1,
+					"ProductFeatureId": 17,
+					"ProductFeatureUId": "e85204b6-b277-46a9-ae07-9cc8eaf6640e",
+					"FeatureUId": "3be3a58d-38a9-4a17-8ddc-0eff99946904",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "Remote Deposit Capture",
+					"Priority": 2,
+					"IsAddOn": false,
+					"FeatureName": "Deposit Tools",
+					"Data": {
+						"disclaimerGroup": "D5",
+						"fee": "Starts at $50",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-banking.icon.svg",
+						"benefits": [
+							"Process a large volume of checks quickly, easily, and securely",
+							"Keep accurate records by matching check payments to customer’s names",
+							"Eliminate paper - less clutter for your office"
+						],
+						"summaryData": {
+							"tagline": "Skip the trip to the bank and make deposits from the comfort of your office",
+							"statements": [
+								{
+									"text": "You prefer to make deposits via <strong>[[value]]</strong>",
+									"facts": ["depositAtHomeWork", "depositOnPhone"]
+								},
+								{
+									"text": "You deposit <strong>[[value]] checks</strong> each month",
+									"facts": ["monthlyChecksCount"]
+								},
+								{
+									"text":
+										"The value of your deposited checks totals about <strong>$[[value]]</strong>",
+									"facts": ["monthlyChecksTotal"]
+								}
+							]
+						}
+					}
+				},
+				{
+					"ExternalId": "BC_PP_ONLINE_BANKING",
+					"FeatureId": 2,
+					"ProductFeatureId": 18,
+					"ProductFeatureUId": "05f41121-3d6e-4ff5-a268-ac21f373cecc",
+					"FeatureUId": "8d29c948-32b2-47c7-b67d-429ae7e58849",
+					"ProductId": 3,
+					"ProductName": "Business Checking Preferred",
+					"ProductUId": "22cee95f-1f5b-42b7-8792-0d6d8203ee97",
+					"ValueDisplay": "Online Banking",
+					"IsAddOn": false,
+					"FeatureName": "Online Banking",
+					"Data": {
+						"disclaimerGroup": "D6",
+						"learnMore": "https://content.pncmc.com/live/Small_business_app/online-banking/",
+						"icon": "assets/img/icons/mobile-payment.icon.svg",
+						"benefits": [
+							"View pending and posted transactions",
+							"Access up to 7 years of statements online, when you have an active checking account",
+							"Transfer funds at your convenience"
+						],
+						"summaryData": {}
+					}
+				}
+			],
+			"BackgroundImages": [],
+			"Name": "Business Checking Preferred",
+			"Deleted": false,
+			"ProductId": 3,
+			"ExternalId": "BC_PP"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$12/month",
+				"category": "Business Savings",
+				"subCategory": "Savings",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/premium-business/",
+				"priority": 3,
+				"icon": "assets/img/icons/profit.icon.svg",
+				"benefits": [
+					"Enjoy easy access to your cash",
+					"Earn a variable interest rate based on your account balance",
+					"Save money for your future"
+				],
+				"summaryData": {
+					"tagline": "Make your money earn more for your business",
+					"statements": [
+						{
+							"text": "You want to earn interest on extra cash",
+							"facts": ["earnInterest"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Premium Business Money Market Account",
+			"Deleted": false,
+			"ProductId": 4,
+			"ExternalId": "MM_P"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "No Annual Fee",
+				"category": "Credit Card",
+				"subCategory": "Credit Card",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-credit-cards/",
+				"priority": 2,
+				"icon": "assets/img/icons/credit-card.icon.svg",
+				"benefits": [
+					"Earn 1.5% cash back on net purchases with no limits on the amount you can earn",
+					"0% APR on Purchases for the first 9 billing cycles after account opening",
+					"Exclusive Visa Signature benefits, embedded chip security, and online account management tools"
+				],
+				"summaryData": {
+					"tagline": "Earn 1.5% cash back on new purchases",
+					"statements": [
+						{
+							"text": "You make <strong>[[value]]</strong> credit expense transactions per month",
+							"facts": ["creditCardOut"]
+						},
+						{
+							"text": "You want to <strong>increase your available cash</strong>",
+							"facts": ["increaseAvailableCash"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "PNC Cash Rewards® Visa Signature® Business Credit Card",
+			"Deleted": false,
+			"ProductId": 5,
+			"ExternalId": "CC_CASH"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "No Annual Fee",
+				"category": "Credit Card",
+				"subCategory": "Credit Card",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-credit-cards/",
+				"priority": 2,
+				"icon": "assets/img/icons/credit-card.icon.svg",
+				"benefits": [
+					"Earn 5 points per $1 spent",
+					"0% APR on Purchases and Balances for the first 9 billing cycles after account opening",
+					"Embedded chip security plus the peace of mind Visa Benefits provides"
+				],
+				"summaryData": {
+					"tagline": "Earn 5 points for every $1 in qualifying purchases",
+					"statements": [
+						{
+							"text": "You make <strong>[[value]]</strong> credit expense transactions per month",
+							"facts": ["creditCardOut"]
+						},
+						{
+							"text": "You want to <strong>increase your available cash</strong>",
+							"facts": ["increaseAvailableCash"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "PNC points® Visa® Business Credit Card",
+			"Deleted": false,
+			"ProductId": 6,
+			"ExternalId": "CC_POINTS"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "No Annual Fee",
+				"category": "Credit Card",
+				"subCategory": "Credit Card",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-credit-cards/",
+				"priority": 2,
+				"icon": "assets/img/icons/credit-card.icon.svg",
+				"benefits": [
+					"Earn 1 mile per $1 spent",
+					"No fees for purchase transactions made outside the United States",
+					"Embedded chip security plus the peace of mind Visa Benefits provides"
+				],
+				"summaryData": {
+					"tagline": "Earn 1 mile for every $1 in eligible net purchases",
+					"statements": [
+						{
+							"text": "You make <strong>[[value]]</strong> credit expense transactions per month",
+							"facts": ["creditCardOut"]
+						},
+						{
+							"text": "You want to <strong>increase your available cash</strong>",
+							"facts": ["increaseAvailableCash"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "PNC Travel Rewards Visa® Business Credit Card",
+			"Deleted": false,
+			"ProductId": 7,
+			"ExternalId": "CC_TRAVEL"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "No Annual Fee",
+				"category": "Credit Card",
+				"subCategory": "Credit Card",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/business-credit-cards/",
+				"priority": 2,
+				"icon": "assets/img/icons/credit-card.icon.svg",
+				"benefits": [
+					"0% APR on balance transfers for the first 13 billing cycles following account opening",
+					"Allows you to open, activate, and close employee cards",
+					"Embedded chip security plus the peace of mind Visa Benefits provides"
+				],
+				"summaryData": {
+					"tagline": "Separate your personal and business purchases",
+					"statements": [
+						{
+							"text": "You make <strong>[[value]]</strong> credit expense transactions per month",
+							"facts": ["creditCardOut"]
+						},
+						{
+							"text": "You want to <strong>increase your available cash</strong>",
+							"facts": ["increaseAvailableCash"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "PNC Visa® Business Credit Card",
+			"Deleted": false,
+			"ProductId": 8,
+			"ExternalId": "CC_BUSINESS"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": {
+					"conditional": true,
+					"BC_S": "Free 30 Day Trial"
+				},
+				"category": "Banking On Demand",
+				"subCategory": "Cash Flow Insight",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/cash-flow-insight/",
+				"priority": 1,
+				"icon": "assets/img/icons/profit.icon.svg",
+				"benefits": [
+					"Visualize trends in the cash coming into and going out of your account",
+					"Plan for this year and scenario plan for next year",
+					"Project account balances based upon upcoming bills and revenue"
+				],
+				"summaryData": {
+					"tagline": "Manage your business's cash flow with efficiency, control, and insight",
+					"checkmarksTitle": "Works for you because:",
+					"revenueCheck": "You bring in <strong>$[[value]] of revenue</strong> each month",
+					"transactionsCheck": "You manage multiple revenue and expense transactions each month",
+					"accelerateReceivablesCheck": "You want to optimize money coming in",
+					"manageRecordsCheck": "You want better records management"
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Cash Flow Insight[SM]",
+			"Deleted": false,
+			"ProductId": 9,
+			"ExternalId": "CFI"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$15 + Transaction Fees",
+				"category": "Banking On Demand",
+				"subCategory": "Cash Flow Insight",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/cash-flow-insight/",
+				"priority": 1,
+				"icon": "assets/img/icons/profit.icon.svg",
+				"benefits": [
+					"Set-up online approval workflow for bills",
+					"Organize your vendor relationships by uploading bills and other documents",
+					"Pay vendors without comprising your account information"
+				],
+				"summaryData": {
+					"tagline": "Save time approving and paying bills",
+					"payables": [
+						{
+							"text": "Connect with your vendors online and pay them electronically",
+							"facts": ["payVendorsElectronically"]
+						},
+						{
+							"text": "Clear bills from your desk with online document management",
+							"facts": ["goPaperless"]
+						},
+						{
+							"text": "Manage payment decisions with organized approval processes",
+							"facts": ["controlPaymentSchedule"]
+						}
+					],
+					"checkmarksTitle": "Works for you because:",
+					"revenueCheck": "You bring in <strong>$[[value]] of revenue</strong> each month",
+					"transactionsCheck": "You manage multiple revenue and expense transactions each month",
+					"accelerateReceivablesCheck": "You want to optimize money coming in",
+					"manageRecordsCheck": "You want better records management"
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Cash Flow Insight[SM] with Payables",
+			"Deleted": false,
+			"ProductId": 10,
+			"ExternalId": "CFI_PAY"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$15 + Transaction Fees",
+				"category": "Banking On Demand",
+				"subCategory": "Cash Flow Insight",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/cash-flow-insight/",
+				"priority": 1,
+				"icon": "assets/img/icons/profit.icon.svg",
+				"benefits": [
+					"Electronically invoice your customers and get paid into your business account",
+					"Get paid faster by sending auto reminders to customers",
+					"Offer the customer convenience by saving their information securely"
+				],
+				"summaryData": {
+					"tagline": "Simplify the collection process with electronic invoicing and get paid faster",
+					"receivables": [
+						{
+							"text": "Get paid online through a website branded with your logo",
+							"facts": ["morePaymentOptions"]
+						},
+						{
+							"text": "Know your cash position with each invoice and scheduled payment",
+							"facts": ["validatePayments"]
+						},
+						{
+							"text": "Stay connected with customers through auto-reminders and online messaging",
+							"facts": ["accelerateReceivables"]
+						}
+					],
+					"checkmarksTitle": "Works for you because:",
+					"revenueCheck": "You bring in <strong>$[[value]] of revenue</strong> each month",
+					"transactionsCheck": "You manage multiple revenue and expense transactions each month",
+					"accelerateReceivablesCheck": "You want to optimize money coming in",
+					"manageRecordsCheck": "You want better records management"
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Cash Flow Insight[SM] with Receivables",
+			"Deleted": false,
+			"ProductId": 11,
+			"ExternalId": "CFI_REC"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "$30 + Transaction Fees",
+				"category": "Banking On Demand",
+				"subCategory": "Cash Flow Insight",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/cash-flow-insight/",
+				"priority": 1,
+				"icon": "assets/img/icons/profit.icon.svg",
+				"benefits": [
+					"Organize your vendor relationships by uploading bills and other documents",
+					"Electronically invoice your customers and get paid into your business account",
+					"Pay vendors electronically and set-up online approval workflow for bills"
+				],
+				"summaryData": {
+					"tagline":
+						"Take advantage of a complete suite of tools with powerful analytics, simplified collection process, and multiple payment options",
+					"payables": [
+						{
+							"text": "Connect with your vendors online and pay them electronically",
+							"facts": ["payVendorsElectronically"]
+						},
+						{
+							"text": "Clear bills from your desk with online document management",
+							"facts": ["goPaperless"]
+						},
+						{
+							"text": "Manage payment decisions with organized approval processes",
+							"facts": ["controlPaymentSchedule"]
+						}
+					],
+					"receivables": [
+						{
+							"text": "Get paid online through a website branded with your logo",
+							"facts": ["morePaymentOptions"]
+						},
+						{
+							"text": "Know your cash position with each invoice and scheduled payment",
+							"facts": ["validatePayments"]
+						},
+						{
+							"text": "Stay connected with customers through auto-reminders and online messaging",
+							"facts": ["accelerateReceivables"]
+						}
+					],
+					"checkmarksTitle": "Works for you because:",
+					"revenueCheck": "You bring in <strong>$[[value]] of revenue</strong> each month",
+					"transactionsCheck": "You manage multiple revenue and expense transactions each month",
+					"accelerateReceivablesCheck": "You want to optimize money coming in",
+					"manageRecordsCheck": "You want better records management"
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Cash Flow Insight[SM] with Payables / Receivables",
+			"Deleted": false,
+			"ProductId": 12,
+			"ExternalId": "CFI_PAY_REC"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "Price Varies",
+				"category": "Banking On Demand",
+				"subCategory": "Cash Flow Insight",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/cash-flow-insight/",
+				"priority": 1,
+				"icon": "assets/img/icons/opposing-arrows.icon.svg",
+				"benefits": [
+					"Cash Flow Insight can be a hub that ties your business management processes and systems together",
+					"Sync vendor, client, bill, invoice and payments between Cash Flow Insight and your accounting software",
+					"Be more automated in all of your cash management processes"
+				],
+				"summaryData": {
+					"tagline":
+						"Eliminate double data entry by syncing Cash Flow Insight transactions to your accounting software",
+					"statements": [
+						{
+							"text": "You want to sync transactions to your accounting software",
+							"facts": ["accountingSoftware"]
+						}
+					],
+					"checkmarksTitle": "Works for you because:",
+					"revenueCheck": "You bring in <strong>$[[value]] of revenue</strong> each month",
+					"transactionsCheck": "You manage multiple revenue and expense transactions each month",
+					"accelerateReceivablesCheck": "You want to optimize money coming in",
+					"manageRecordsCheck": "You want better records management"
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Cash Flow Insight[SM] with Sync",
+			"Deleted": false,
+			"ProductId": 13,
+			"ExternalId": "CFI_SYNC"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "Speak to a Representative",
+				"category": "Merchant Services",
+				"subCategory": "Merchant Services",
+				"learnMore": "https://content.pncmc.com/live/Small_business_app/clover-family/",
+				"priority": 4,
+				"icon": "assets/img/icons/pos.icon.svg",
+				"benefits": [
+					"Take payments on the go, at the counter and online",
+					"Next day funding on payment transactions when deposited into a PNC Bank business checking account",
+					"Securely accept credit, debit, and gift cards"
+				],
+				"summaryData": {
+					"tagline": "Make paying simple for your customers",
+					"statements": [
+						{
+							"text": "You want to offer more payment options",
+							"facts": ["morePaymentOptions"]
+						},
+						{
+							"text": "You want effective security and fraud protection",
+							"facts": ["paymentSecurity"]
+						},
+						{
+							"text": "Your customer's average transaction is <strong>$[[value]]</strong>",
+							"facts": ["spendPerTransaction"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "Credit Card Processing",
+			"Deleted": false,
+			"ProductId": 14,
+			"ExternalId": "MERCHANT_SVC"
+		},
+		{
+			"MSRP": 0.0,
+			"PriceForSorting": 0.0,
+			"StandardPrice": 0.0,
+			"Data": {
+				"fee": "Speak to a Representative",
+				"category": "WorkPlace Banking",
+				"subCategory": "WorkPlace Banking",
+				"learnMore": "https://www.pnc.com/en/personal-banking/banking/workplace-banking.html",
+				"priority": 5,
+				"icon": "assets/img/icons/business-man.icon.svg",
+				"benefits": [
+					"Helps employers to retain existing employees and attract new hires",
+					"Offers access to certain product promotions, financial education programs and onsite events"
+				],
+				"summaryData": {
+					"tagline":
+						"A turnkey financial services program that lets you offer different benefits to your employees",
+					"statements": [
+						{
+							"text": "You have <strong>[[value]]</strong> employees",
+							"facts": ["employees"]
+						}
+					]
+				}
+			},
+			"ProductFeatures": [],
+			"BackgroundImages": [],
+			"Name": "PNC WorkPlace Banking®",
+			"Deleted": false,
+			"ProductId": 15,
+			"ExternalId": "WORKPLACE_BNK"
+		}
+	],
+	"facts": {
+		"lastIndex": 9,
+		"monthlyIncomeTransactions": 369,
+		"monthlyExpenseTransactions": 48,
+		"totalMonthlyTransactions": 417,
+		"electronicPayments": 123,
+		"monthlyChecksTotal": 4200,
+		"creditCardOut": 12,
+		"debitCardOut": 12,
+		"customersPayAfterInvoice": {
+			"display": "After Invoice",
+			"fact": "customersPayAfterInvoice",
+			"icon": ""
+		},
+		"salesOtherChannel": {
+			"display": "Online, by Phone, or Other",
+			"fact": "salesOtherChannel"
+		},
+		"averageMonthlyRevenueCash": 77500,
+		"averageMonthlyRevenueOther": 1700,
+		"monthlyRevenuePercentCash": 0.93,
+		"monthlyRevenuePercentChecks": 0.05,
+		"monthlyRevenuePercentOther": 0.02,
+		"depositAtHomeWork": {
+			"display": "Computer or Scanner",
+			"fact": "depositAtHomeWork"
+		},
+		"morePaymentOptions": {
+			"display": "Offer more payment options",
+			"fact": "morePaymentOptions",
+			"icon": "ios-card"
+		},
+		"validatePayments": {
+			"display": "Validate and track customer payments",
+			"fact": "validatePayments",
+			"icon": "ios-checkmark-circle"
+		},
+		"payVendorsElectronically": {
+			"display": "Pay vendors electronically",
+			"fact": "payVendorsElectronically",
+			"icon": "ios-laptop"
+		},
+		"increaseAvailableCash": {
+			"display": "Increase available cash",
+			"fact": "increaseAvailableCash",
+			"icon": "ios-cash"
+		},
+		"simplify": {
+			"display": "Simplify things for me",
+			"fact": "simplify",
+			"icon": "ios-funnel"
+		},
+		"moveMoney": {
+			"display": "Move my money more easily",
+			"fact": "moveMoney",
+			"icon": "logo-usd"
+		},
+		"businessName": "Bob's Bricks",
+		"businessIndustry": {
+			"Order": 2,
+			"ValueId": 6,
+			"ValueTypeId": 3,
+			"Display": "Manufacturing",
+			"AltValue": "manufacturing",
+			"ValueTypeName": "Industry"
+		},
+		"businessContactName": "Bob Bobberson",
+		"contactFirstName": "Bob",
+		"contactLastName": "Bobberson",
+		"primaryProductService": "bricks and masonry wares",
+		"personalBankingProducts": {
+			"display": "No",
+			"value": 0
+		},
+		"annualRevenue": 999999,
+		"averageMonthlyRevenue": 83300,
+		"averageCheckingBalance": 12333,
+		"employees": 12,
+		"payrollDebitsOut": 12,
+		"yearsInBusiness": 12,
+		"businessType": {
+			"Order": 1,
+			"ValueId": 13,
+			"ValueTypeId": 4,
+			"Display": "LLC or LLP",
+			"AltValue": "llc_llp",
+			"ValueTypeName": "BusinessType"
+		},
+		"spendPerTransaction": 123,
+		"cardPayments": 123,
+		"monthlyChecksCount": 123,
+		"proxyDeposits": {
+			"display": "No",
+			"value": 0
+		},
+		"averageMonthlyExpenses": 1233,
+		"checksOut": 12,
+		"onlineBillsOut": 12,
+		"wiresOut": 12,
+		"seasonality": {
+			"q1": 0,
+			"q2": 1,
+			"q3": 0,
+			"q4": 0
+		}
+	}
+}

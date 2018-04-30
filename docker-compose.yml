@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pnc-functions:
+    image: 'unboxedtechnology/pnc-functions:0.5.0'
+    volumes:
+      - './common/src:/home/site/wwwroot/common/src'
+      - './hello/src:/home/site/wwwroot/hello/src'
+      - './product-availability/src:/home/site/wwwroot/product-availability/src'
+      - >-
+        ./product-recommendation/src:/home/site/wwwroot/product-recommendation/src
+    ports:
+      - '3100:80'
+    environment:
+      - LOCAL_DEVELOPMENT=true

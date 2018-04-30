@@ -1,0 +1,27 @@
+{
+	"name": "pnc-functions",
+	"version": "0.5.0",
+	"main": "index.js",
+	"author": "Hayden Braxton <haydenbraxton@unboxedtechnology.com>",
+	"license": "MIT",
+	"private": true,
+	"repository": "https://bitbucket.org/unboxedtech/pnc-functions",
+	"description": "pnc-functions Azure Functions App for pnc-cfj",
+	"dockerHubRepository": "unboxedtechnology/pnc-functions",
+	"scripts": {
+		"start": "docker-compose up --force-recreate",
+		"bump": "./scripts/bump.js",
+		"major": "yarn bump major",
+		"minor": "yarn bump minor",
+		"patch": "yarn bump patch",
+		"precommit": "pretty-quick --staged"
+	},
+	"devDependencies": {
+		"chalk": "^2.3.0",
+		"husky": "0.14.3",
+		"js-yaml": "^3.10.0",
+		"lodash": "^4.17.5",
+		"prettier": "1.10.2",
+		"pretty-quick": "1.2.3"
+	}
+}

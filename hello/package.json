@@ -1,0 +1,15 @@
+{
+	"name": "hello",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC",
+	"private": true,
+	"repository": "https://bitbucket.org/unboxedtech/pnc-functions",
+	"description": "example Azure function with GET and POST handlers",
+	"dependencies": {
+		"applicationinsights": "^1.0.2",
+		"lodash": "^4.17.5",
+		"pirate-speak": "^1.0.1"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "repository": "https://bitbucket.org/unboxedtech/pnc-functions",
+  "description": "Common functions used in multiple azure functions",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
